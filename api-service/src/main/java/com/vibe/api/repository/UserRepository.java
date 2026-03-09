@@ -1,6 +1,6 @@
 package com.vibe.api.repository;
 
-import com.vibe.common.entity.User;
+import com.vibe.common.dto.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

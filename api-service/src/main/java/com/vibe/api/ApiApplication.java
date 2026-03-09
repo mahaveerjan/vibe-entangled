@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import java.util.TimeZone;
 
 @SpringBootApplication(scanBasePackages = "com.vibe")
-@EntityScan(basePackages = "com.vibe.common.entity")
+@EntityScan(basePackages = "com.vibe.common.dto.entity")
 public class ApiApplication {
     public static void main(String[] args) {
         TimeZone.setDefault(TimeZone.getTimeZone("Asia/Kolkata"));
